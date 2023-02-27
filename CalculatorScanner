@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class CalculatorScanner {
+    public static void main(String[] args) {
+
+        System.out.println("Gebe hier nun eine Ganzzahl ein: ");
+        Scanner sc = new Scanner(System.in);
+        int number1 = sc.nextInt();
+        System.out.println("Gebe hier noch eine Ganzzahl ein: ");
+        int number2 = sc.nextByte();
+        System.out.println("Das Ergebnis ist: "+number1/number2);
+    }
+}
