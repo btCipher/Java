@@ -1,0 +1,8 @@
+public class Format {
+    public static void main(String[] args) {
+        String a = "Hello";
+        String b = "World";
+
+        System.out.printf("%S \n%s", a,b);
+    }
+}
